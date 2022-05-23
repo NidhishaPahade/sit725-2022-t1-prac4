@@ -6,14 +6,14 @@ app.use(express.urlencoded({ extended: false }));
 const cardList = [
     {
         title: "Kuala 2",
-        image: "images/kuala2.jpg",
-        link: "About Kuala 2",
+        image: "images/koala2.jpg",
+        link: "About Koala 2",
         description: "Demo description about kuala 2"
     },
     {
         title: "Kuala 3",
-        image: "images/kuala3.jpg",
-        link: "About Kuala 3",
+        image: "images/koala3.jpg",
+        link: "About Koala 3",
         description: "Demo description about kitten 3"
     }
 ]
