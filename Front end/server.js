@@ -5,16 +5,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 const cardList = [
     {
-        title: "Kuala 2",
+        title: "Koala 2",
         image: "images/koala2.jpg",
         link: "About Koala 2",
-        description: "Demo description about kuala 2"
+        description: "Demo description about koala 2"
     },
     {
-        title: "Kuala 3",
+        title: "Koala 3",
         image: "images/koala3.jpg",
         link: "About Koala 3",
-        description: "Demo description about kitten 3"
+        description: "Demo description about koala 3"
     }
 ]
 app.get('/api/projects',(req,res) => {
