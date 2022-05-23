@@ -9,7 +9,7 @@ const cardList = [
         title: "Koala 3",
         image: "images/koala3.jpeg.jfif",
         link: "About Koala 3",
-        desciption: "Demo desciption about kitten 3"
+        desciption: "Demo desciption about koala 3"
     }
 ]
 const clickMe = () => {
